@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+  border-color: unset;
+}
+
+.long-navbar-section {
+  background: #FFF;
+  opacity: 1000000;
+  width: 100%;
+  min-height: 75px;
+  position: fixed;
+  z-index: 10000;
+}
+
+.long-navbar-section #navbarContent ul li a {
+  color: #323332;
+  font-weight: 700;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  padding: 8px 12px;
+}
+
+.long-navbar-section #navbarContent :hover {
+  color: #43a421;
+}
+
+.long-navbar-section #navbarContent .contact-us-btn {
+  border-color: #43a421;
+  background-color: #43a421;
+  color: #FFF;
+  padding: 8px 21px;
+  text-transform: lowercase;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  -webkit-box-shadow: 1px 2px 16px #ccc;
+          box-shadow: 1px 2px 16px #ccc;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.long-navbar-section #navbarContent .contact-us-btn:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.background-image {
+  background-image: url("/Documents_Folder/All_Pages_Images_Folder/Background_Images/Background_Section_Image/001/car-rental.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+  background-position: center center;
+}
+
+.background-image h1 {
+  padding-top: 5em;
+}
+
+.background-image a {
+  border-color: #43a421;
+  background-color: #43a421;
+  color: #FFF;
+  padding: 14px 46px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+}
+
+.background-image a:hover {
+  background: none;
+  border: 1px solid #fff;
+  border-color: #FFF;
+  color: #fff;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.background-image form {
+  background: #f3f3f3;
+  padding: 45px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 155px;
+}
+
+.background-image form h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-image .submit-button-form {
+  border-color: #43a421;
+  background-color: #43a421;
+  color: #FFF;
+  padding: 12px 21px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  outline: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+.services-section {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 4em;
+}
+
+.services-section h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.services-section p {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pricing-section h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.pricing-section p {
+  font-weight: 500;
+}
+
+.friends-sec-image {
+  background-image: url("/Documents_Folder/All_Pages_Images_Folder/Background_Images/Background_Section_Image/Friends_Images_Folder/car-rental5.jpg");
+  background-size: cover;
+  min-height: 80vh;
+  margin-top: 4em;
+}
+
+.friends-sec-image h3 {
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.friends-sec-image p {
+  font-size: 20px;
+}
+
+.friends-sec-image .box1, .friends-sec-image .box2, .friends-sec-image .box3 {
+  min-height: 100px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-rs {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-pn {
+  top: 435px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #43a421;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg {
+  background: #3B5998;
+}
+
+.twitter-bg {
+  background: #55ACEE;
+}
+
+.google-bg {
+  background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #43a421;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #43a421;
+  text-decoration: none;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #43a421;
+  padding: 13px 20px;
+  border: 1px solid #43a421;
+  top: 0;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.copyright-text p a {
+  color: #43a421;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #43a421;
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+/*# sourceMappingURL=HomePage.css.map */
